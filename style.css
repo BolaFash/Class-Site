@@ -1,48 +1,49 @@
-a{
-    color: black;
-    text-decoration: none;
-    font-size: 13px;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 300;
+body{
+	overflow: scroll;
+	background-color: white;
 }
 
-a:hover{
-  color: red;
+
+.box{
+	width: 200px;
+    height: 50px;
+    background-color: transparent;
+    border: red;
+    z-index: +200;
 }
 
-.table {
-  display: table;   /* Allow the centering to work */
-  margin: 0 auto;
-}
-
-ul.listing{
-  text-align: center;
-   margin: 0;
+.name{
+	font-family: 'Oswald', sans-serif;
+	font-size: 50px;
+	font-weight: 500;
+	 margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    overflow: visible;
-     list-style-type: none;
-     display: inline;
-     min-width: 100%;
-
+	text-shadow: -0px -0px 0px #f1f1f1, 0px 1.2px 0px #f2f2f2;
+	color: #ffffff;
+	position: absolute;
 }
 
-ul.listing li{
-  display: inline;
-  padding-left: 10px;
+a{
+    text-decoration: none;
+    	color: #ffffff;
 }
 
-.footer{
-    position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  text-align: center;
-  font-family: 'Oswald', sans-serif;
-    font-weight: 200;
-    font-size: 10px;
+a:hover{
+   text-decoration:line-through;
+    text-decoration-color: #e30808;
 }
+
+a:active{
+   text-decoration:line-through;
+    text-decoration-color: #e30808;
+}
+
+a:visited{
+   text-decoration:line-through;
+    text-decoration-color: #e30808;
+}
+
